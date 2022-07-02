@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- FavIcon -->
+	<link rel="icon" href="img/frame-1.svg">
+	<!-- style.css -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- slick-slider -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+		integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- slick-slider -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+		integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- animate-css -->
+	<link rel="stylesheet" href="css/animate.min.css"/>
+	<!-- WoW-js -->
+	<script src="js/wow.min.js"></script>
+	<script>
+     	new WOW().init();
+     </script>
+
+	<title>KazFeed</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<!------------ header ------------>
+		<header class="header">
+			<div class="header__container _container">
+				<div class="header__logo">
+					<a href="/"><img src="img/white-logo.svg" alt="logo"></a>
+				</div>
+				<nav class="header__menu menu header-link">
+					<ul class="menu__list">
+						<li><a href="" class="menu__link">О нас</a></li>
+						<li><a href="" class="menu__link">Продукция</a></li>
+						<li><a href="" class="menu__link">Контакты</a></li>
+					</ul>
+				</nav>
+				<div class="header__contacts contacts">
+					<a href="tel:+77057820625" target="_blank" class="contacts__tel">
+						+ 7 705 782 06 25
+					</a>
+					<a href="https://api.whatsapp.com/send/?phone=77057820625" target="_blank" class="contacts__whatsapp">
+						<img src="img/white-whatsapp.svg" alt="/">
+					</a>
+					<div class="menu__burger">
+						<span></span>
+					</div>
+				</div>
+			</div>
+		</header> 
+
+		<!------------ main ------------>
+		<main class="page">
+			<div class="page__main-block main-block">
+			<div class="main-block__container">
+				<div class="main-block__front animate__animated animate__fadeInLeft">
+					<img src="img/front.png" alt="/">
+				</div>
+				<div class="main-block__check check">
+					<button class="check__body">
+						<span class="check__title">Обратная связь</span>
+					</button>
+					<div class="check__form form">
+						<form action="/">
+							<div class="form__name">
+								<input type="text" name="name" placeholder="Имя">
+							</div>
+							<div class="form__name">
+								<input id="phone" type="tel" name="call" placeholder="Телефон">
+							</div>
+							<div class="form__name">
+								<input type="email" name="email" placeholder="Email">
+							</div>
+							<div class="form__name">
+								<textarea name="messages" cols="5" rows="5" placeholder="Сообщение"></textarea>
+							</div>
+						</form>
+						<button class="form__button" type="submit">Отправить</button>
+					</div>
+				</div>
+			</div>
+			<div class="page__contacts-block contacts-block animate__animated animate__fadeInRight">
+				<div class="contacts-block__whatsapp">
+					<a href="https://api.whatsapp.com/send/?phone=77057820625" target="_blank" class="contacts-block__link whatsapp">
+						<img src="img/page-whatsapp.svg" alt="">
+					</a>
+				</div>
+				<div class="contacts-block__tel">
+					<a href="tel:+77057820625" target="_blank" class="contacts-block__link call">
+						<img src="img/page-call.svg" alt="">
+					</a>
+				</div>
+			</div>
+		</main>
+
+		<!------------ section.about ------------>
+
+		<section class="about">
+			<div class="about__container _container">
+				<div class="about__body">
+					<div class="about__title wow animate__animated animate__fadeInLeft">
+						О нас
+					</div>
+					<div class="about__text wow animate__animated animate__fadeInLeft" data-wow-delay="0.5s">
+						<p>Kaz Feed - активно развивающаяся компания, специализируется на закупе, производстве, переработке и реализации сельскохозяйственной продукции.</p> 
+						<p>Мы закупаем качественное сырье, такое как бобы сои, кукуруза, семена подсолнечника, пшеница, лен, рапс и другие, у проверенных поставщиков сельскохозяйственных культур</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!------------ section.advantages  ------------>
+
+		<section class="advantages">
+			<div class="advantages__container _container">
+				<div class="advantages__block">
+					<div class="advantages__title wow animate__animated animate__fadeInLeft">
+						Преимущества
+					</div>
+					<div class="advantages__body wow animate__animated animate__fadeInLeft" data-wow-delay="0.5s">
+						<div class="advantages__row">
+							<div class="advantages__image">
+								<img src="img/advantages-1.svg" alt="/">
+							</div>
+							<div class="advantages__text">
+								<p>Закупаем </p>
+								<p>качественное сырье</p>
+							</div>
+						</div>
+						<div class="advantages__row">
+							<div class="advantages__image">
+								<img src="img/advantages-2.svg" alt="/">
+							</div>
+							<div class="advantages__text">
+								<p>Современная техника </p>
+								<p>для производства</p>
+							</div>
+						</div>
+						<div class="advantages__row">
+							<div class="advantages__image">
+								<img src="img/advantages-3.svg" alt="/">
+							</div>
+							<div class="advantages__text">
+								<p>Собственная</p> 
+								<p>сертифицированная лаборатория</p>
+							</div>
+						</div>
+						<div class="advantages__row">
+							<div class="advantages__image">
+								<img src="img/advantages-4.svg" alt="/">
+							</div>
+							<div class="advantages__text">
+								<p>Являемся членом Национальной</p> 
+								<p>ассоциации экспортеров «KazGrain»</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!------------ section.spheres ------------>
+
+		<section class="spheres">
+			<div class="spheres__block">
+				<div class="spheres__container _container">
+					<div class="spheres__title wow animate__animated animate__fadeInLeft">
+						Сферы деятельности
+					</div>
+				</div>
+				<!-- slider -->
+				<div class="slider_">
+					<div class="slider__container">
+						<div class="slider__body slider">
+							<div class="slider__column">
+								<div class="slider__item item">
+									<div class="item__image">
+										<img src="img/slider-1.png" alt="">
+									</div>
+									<div class="item__block block-item">
+										<div class="block-item__row">
+											<div class="block-item__subtitle">Жмых соевый</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="slider__column">
+								<div class="slider__item item">
+									<div class="item__image">
+										<img src="img/slider-1.png" alt="">
+									</div>
+									<div class="item__block block-item">
+										<div class="block-item__row">
+											<div class="block-item__subtitle">Жмых соевый</div>
+										</div>
+									</div>
+									<div class="spheres-slider__number">
+										<div class="spheres-slider__item">
+											<span class="span-one">01</span>/<span class="span-two"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!------------ footer ------------>
+
+		<footer class="main-footer">
+			<div class="main-footer__container _container">
+				<div class="main-footer__row">
+					<div class="main-footer__logo">
+						<a href=""><img src="img/white-logo.svg" alt="logo"></a>
+					</div>
+					<nav class="main-footer__menu footer-menu">
+						<ul class="footer-menu__list">
+							<li><a href="" class="footer-menu__link">О нас</a></li>
+							<li><a href="" class="footer-menu__link">Услуги</a></li>
+							<li><a href="" class="footer-menu__link">Контакты</a></li>
+						</ul>
+					</nav>
+					<div class="main-footer__contacts footer-contacts">
+						<a href="tel:+77057820625" target="_blank" class="footer-contacts__tel">
+							+ 7 705 782 06 25
+						</a>
+						<a href="https://api.whatsapp.com/send/?phone=77057820625" target="_blank" class="footer-contacts__whatsapp">
+							+ 7 705 782 06 25
+						</a>
+					</div>
+				</div>
+				<div class="main-footer__row_two">
+					<div class="main-footer__body">
+						<div class="main-footer__logo">
+							<a href="/"><img src="img/white-logo.svg" alt="logo"></a>
+						</div>
+						<div class="main-footer__contacts footer-contacts">
+							<a href="tel:+77057820625" target="_blank" class="footer-contacts__tel">
+								+ 7 705 782 06 25
+							</a>
+							<a href="https://api.whatsapp.com/send/?phone=77057820625" target="_blank" class="footer-contacts__whatsapp">
+								+ 7 705 782 06 25
+							</a>
+						</div>
+					</div>
+					<nav class="main-footer__menu footer-menu">
+						<ul class="footer-menu__list">
+							<li><a href="" class="footer-menu__link">О нас</a></li>
+							<li><a href="" class="footer-menu__link">Услуги</a></li>
+							<li><a href="" class="footer-menu__link">Контакты</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="main-footer__copypirght footer-copypirght">
+					<div class="footer-copypirght__text">
+						KSP 2021. Все права защищены
+					</div>
+					<a href="https://astanacreative.kz/" target="_blank" class="footer-copypirght__development">
+						Разработка сайта Astana Creative
+					</a>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+		integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
